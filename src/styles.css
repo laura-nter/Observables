@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #2F4F5D;
+}
+
+.info-container {
+    background: #e6e2d8d1;
+    width: 50%;
+    margin: 30px 20px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4f4d46;
+}
+
+.info-container__title {
+    font-size: x-large;
+    padding: 5px 0px;
+    border-bottom: 1px solid #4f4d4652;
+}
+
+.info-container__body {
+    margin-top: 10px;
+    padding: 10px 20px
+}

@@ -1,0 +1,31 @@
+.header {
+    background: #4E7381;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header__title {
+    font-size: xxx-large;
+    padding: 5px 20px;
+}
+
+.header__title span:hover {
+    cursor: pointer;
+}
+
+.header__navbar ul {
+    display: flex;
+}
+
+.header__navbar li {
+    border: 1px solid #ffffff58;
+    font-size: larger;
+    list-style-type: none;
+    padding: 10px 20px;
+    width: 25%;
+}
+
+.header__navbar li:hover {
+    background: #3E616F;
+    cursor: pointer;
+}
